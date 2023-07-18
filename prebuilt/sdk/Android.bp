@@ -1,7 +1,7 @@
 android_library_import {
     name: "androidx.preference_preference-ktx-nodeps",
     aars: ["androidx/preference/preference-ktx/preference-ktx-*.aar"],
-    sdk_version: "31",
+    sdk_version: "33",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -17,7 +17,7 @@ android_library_import {
 
 android_library {
     name: "androidx.preference_preference-ktx",
-    sdk_version: "31",
+    sdk_version: "33",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
