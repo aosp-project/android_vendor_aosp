@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/aosp/config/version.mk
+# include vendor/aosp/config/version.mk
 
 PRODUCT_PACKAGES += \
     NetworkStackOverlay
