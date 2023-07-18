@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 ArrowOS
+# Copyright (C) 2018-2019 Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,5 +18,3 @@ include vendor/aosp/config/BoardConfigKernel.mk
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 include vendor/aosp/config/BoardConfigQcom.mk
 endif
-
-include vendor/aosp/config/BoardConfigSoong.mk
